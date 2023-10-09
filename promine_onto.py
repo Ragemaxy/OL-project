@@ -107,6 +107,7 @@ def calculate_related_words(cluster_label, corpus, threshold):
 
 
 if __name__ == "__main__":
+  df = pd.read_csv('prepared_df_dump.csv')
   corpuses = []
   for i in range(10):
     threshold = i/10
